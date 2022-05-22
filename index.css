@@ -103,3 +103,32 @@ body{
     transform: scale(1.1);
     /* color: #1DB954; */
   }
+  .modal-body{
+    min-width:800px;
+    min-height:400px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    padding: 4px;
+  }
+  @media only screen and (max-width: 1160px) {
+   .modal-body{
+     min-width:600px;
+     min-height:100px;
+
+  }
+}
+@media only screen and (max-width: 750px) {
+ .modal-body{
+   min-width:500px;
+   min-height:100px;
+
+}
+}
+@media only screen and (max-width: 580px) {
+ .modal-body{
+   min-width:470px;
+   min-height:100px;
+
+}
+}
